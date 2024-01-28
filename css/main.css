@@ -121,8 +121,8 @@ a {
     margin-bottom: 45px;
 }
 
-.header-btn, .all-btn {
-    padding: 3px 40px 1px 40px;
+.header-btn,.all-btn {
+    padding: 2px 40px 1px 40px;
     border-radius: 55px;
     background-color: #458FF6;
     flex-shrink: 0;
@@ -146,7 +146,7 @@ a {
     width: 100%;
     padding-top: 192px;
     padding-bottom: 220px;
-    background-color: #F3F7FF;
+    /* background-color: #F3F7FF; */
 
 }
 
@@ -188,7 +188,8 @@ a {
     line-height: 30px;
 }
 
-.aboute-dates {
+.aboute-dates-1,
+.aboute-dates-2 {
     display: flex;
     column-gap: 34px;
     justify-content: center;
@@ -196,13 +197,23 @@ a {
     margin-bottom: 37px;
 }
 
+.aboute-dates {
+    margin-bottom: 70px;
+    margin: auto;
+    text-align: center;
+}
+
 .aboute-date {
+    width: 350px;
+    height: 354px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: left;
     padding: 54px 45px 47px 37px;
     border-radius: 20px;
     background-color: #fff;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
 }
 
 .date-title {
@@ -227,6 +238,25 @@ a {
     font-weight: 300;
     line-height: 28px;
 }
+
+.aboute-btn {
+    padding: 2px 51px 1px 51px;
+    border-radius: 55px;
+    background-color: #F3F7FF;
+    flex-shrink: 0;
+    box-shadow: none;
+    border: 1.4px solid #458FF6;
+}
+
+.aboute-link {
+    color: #458FF6;
+    font-family: var(--mulish);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+
 
 
 
