@@ -1,0 +1,86 @@
+
+/* GLOBAL STYLE */
+
+@import url(./fonts.css);
+
+:root {
+    --mulish: "Mulish";
+    --main_blue:  #458FF6;
+    --logo-color: #233348;
+    --menu-color: #1F1534;
+    --text-color: #7D7987;
+    --custom-color: rgba(255, 255, 255, 0.90);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    list-style: none;
+}
+
+.container {
+    width: 1150px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* //GLOBAL STYLE */
+
+/* SITE-HEADER */
+.site-header {
+    width: 100%;
+    background-color: #fff;
+}
+
+.site-header__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+
+.logo {
+    width: 41px;
+    height: 41px;
+    background-color: #458FF6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: var(--mulish);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.logo-text {
+    
+}
+.header-list {
+}
+.list-item {
+}
+.list-link {
+}
+.site-header__hero {
+}
+
+/* //SITE-HEADER */
+
+
